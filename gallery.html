@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея - Ленинградский технический колледж</title>
+    <link rel="stylesheet" href="cssstyle.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Логотип Ленинградского технического колледжа" class="logo">
+            <h1>Ленинградский технический колледж</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery-section">
+            <h2>Фотогалерея колледжа</h2>
+            <div class="gallery-container">
+                <div class="gallery-slider">
+                    <div class="slide active">
+                        <img src="images/gallery1.jpg" alt="Здание колледжа">
+                        <p>Главный корпус колледжа</p>
+                    </div>
+                    <div class="slide">
+                        <img src="images/gallery2.jpg" alt="Учебная аудитория">
+                        <p>Современная учебная аудитория</p>
+                    </div>
+                    <div class="slide">
+                        <img src="images/gallery3.jpg" alt="Лаборатория">
+                        <p>Техническая лаборатория</p>
+                    </div>
+                </div>
+                <div class="gallery-controls">
+                    <button class="prev-btn">Назад</button>
+                    <button class="next-btn">Вперед</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Ленинградский технический колледж. Все права защищены.</p>
+    </footer>
+
+    <script src="jsgallery.js"></script>
+</body>
+</html>
